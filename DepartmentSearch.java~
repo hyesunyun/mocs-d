@@ -1,0 +1,68 @@
+/* File Name: DepartmentSearch.java
+ * Purpose: A class that creates a Hashtable used 
+ * for the search by search word function 
+ * Author: Hye Sun Yun 
+ * Date: November 25, 2014
+ * Project
+ */
+
+import java.io.*;
+import java.util.*;
+
+public class DepartmentSearch {
+  //instance vars
+  Hashtable<String,CSProfsAndCourses> hashtable;
+  CSProfsAndCourses lists; 
+  
+  public DepartmentSearch(String coursetxtFile, String proftxtFile) {
+    hashtable = new Hashtable<String,CSProfsAndCourses>(10000);
+    lists = new CSProfsAndCourses(coursetxtFile, proftxtFile);
+    try {
+      Scanner reader = new Scanner(new File(coursetxtFile));
+      
+      while (reader.hasNext()) {
+        
+        String word = reader.next().trim().toLowerCase();
+        hashtable.put(word, lists.containsSearchWord(word));
+      }
+      reader.close();
+    } catch (IOException e) {
+      System.out.println("error in reading words from file");
+    }
+    
+    try {
+      Scanner reader = new Scanner(new File(proftxtFile));
+      
+      while (reader.hasNext()) {
+        
+        String word = reader.next().trim().toLowerCase();
+        hashtable.put(word, lists.containsSearchWord(word));
+      }
+      reader.close();
+    } catch (IOException e) {
+      System.out.println("error in reading words from file");
+    }
+  }
+  
+  public boolean searchWord(String word) {
+    return hashtable.containsKey(word.trim().toLowerCase());
+  } 
+  
+  public CSProfsAndCourses getSearchResult(String searchWord) {
+    CSProfsAndCourses searchResults = null; 
+    if (this.lists.isContainsSearchWord(searchWord)) {
+    searchResults = this.hashtable.get(searchWord.toLowerCase());
+    } else {
+      System.out.println("search word not found!");
+    }
+    return searchResults;  
+  }
+  public static void main(String[] args) {
+    DepartmentSearch ds = new DepartmentSearch("CSCourses.txt","CSProfessors.txt");
+//    System.out.println("web: " + ds.searchWord("web"));
+//    System.out.println("pizza: " + ds.searchWord("pizza"));
+    //System.out.println(ds.getSearchResult("science"));
+    //System.out.println(ds.getSearchResult("web"));
+     System.out.println(ds.getSearchResult("111"));
+  }
+}

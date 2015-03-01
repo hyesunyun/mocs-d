@@ -1,0 +1,87 @@
+import java.util.*;
+import java.io.*;
+
+public class CSProfessors {
+  
+  // instance variables
+  private LinkedList<Professor> professorList;
+  private int numProfs;
+  private static String semester = "Fall 2014";
+  private final int NOT_FOUND = -1;
+  
+  public CSProfessors() {
+    professorList = new LinkedList<Professor>();
+    numProfs = 0;
+  }
+  
+  public CSProfessors (String fileName) {
+    this();
+    try {
+      Scanner scan = new Scanner(new File(fileName));
+      while (scan.hasNextLine()) {
+        Professor p = new Professor (scan.nextLine(), scan.nextLine(), scan.nextLine(), scan.nextLine(), 
+                                     scan.nextLine(), scan.nextLine(), scan.nextLine(), scan.nextLine());
+        String line = scan.nextLine();
+        addProfessor(p);
+        numProfs++;
+      }
+    }
+    catch (IOException e) {
+      System.out.println("This file was not found.");
+    } 
+  }
+  
+  public String toString() {
+    String s = "Computer Science Professors for " + semester + ": \n";
+    for (int i = 0; i < numProfs; i++) {
+      s += professorList.get(i) + "\n";
+    }
+    return s;
+  }
+  
+  public int getNumOfProfs() {
+    return numProfs;
+  }
+  
+  public int findProfessor(Professor p) {
+    return professorList.indexOf(p);
+  }
+  
+  public Professor findProfessorByName(String n) {
+    Professor result = null;
+    for (int i = 0; i < professorList.size(); i++) {
+      if (professorList.get(i).getName().equals(n)) {
+        result = professorList.get(i);
+      }
+    }
+    return result;
+  }
+  
+  public void addProfessor (Professor p) {
+    if (this.contains(p) != true) {
+      professorList.add(p);
+    } else {
+      System.out.println("The professor is already in the list of professors.");
+    }
+  }
+  
+  public void removeProfessor(Professor p) {
+    professorList.remove(p);
+  }
+  
+  public boolean contains(Professor p) {
+    return professorList.contains(p); 
+  }
+  
+  public LinkedList<Professor> getProfessorList() {
+    return professorList;
+  }
+  
+  public static void main (String[] args) {
+    CSProfessors profList = new CSProfessors("CSProfessors.txt");
+    System.out.println(profList);
+    System.out.println(profList.findProfessorByName("P. Takis Metaxas").toString());
+  }
+  
+}
+

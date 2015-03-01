@@ -1,0 +1,37 @@
+import javafoundations.*;
+import java.awt.*;
+import javax.swing.*;
+import javax.imageio.ImageIO;
+import java.awt.Image;
+import javax.swing.BorderFactory;
+import java.awt.BorderLayout;
+
+public class DependencyPanel extends JPanel {
+  
+  public DependencyPanel () {
+    JPanel main = new JPanel(new BorderLayout());
+    main.setBorder(BorderFactory.createEmptyBorder(15,15,15,15));
+    
+    setLayout (new BoxLayout (this, BoxLayout.Y_AXIS));
+    Color blue = new Color(0,191,255);
+    main.setBackground (blue);
+    
+    //LOST TITLE LABEL
+    
+    JLabel a = new JLabel ("<html>Graph of Course Dependencies within the Wellesley College Computer Science Department</html>", SwingConstants.CENTER);
+    a.setFont(new Font("San Serif", Font.BOLD, 16));
+    
+    JLabel b = new JLabel ("<html>To learn more about each course, visit the SEARCH tab!</html>", SwingConstants.CENTER);
+    b.setFont(new Font("San Serif", Font.BOLD, 14));
+    
+    ImageIcon icon = new ImageIcon("CSDependenciesImage.jpg");
+    JLabel image = new JLabel(icon);
+    
+    main.add(a, BorderLayout.NORTH);
+    main.add(image);
+    main.add(b, BorderLayout.SOUTH);
+    
+    add(main);
+  }
+  
+}

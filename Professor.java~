@@ -1,0 +1,140 @@
+/** Defines a class of Professor objects that store information about individual professors.
+  * 
+  */
+import java.util.*;
+
+public class Professor {
+  
+  private String name;         // name of professor
+  private String location;     // professor's office location  
+  private String hours;        // professor's office hours
+  private String course1;      // title of course taught
+  private String course2;      // title of second course taught
+  private String title;        // official title (assistant professor, etc.)
+  private String interest;     // specific interests in computer science
+  private String email;        //professor's email address
+  
+  
+  
+  public Professor (String name, String officeLocation, String officeHours, String course1, String course2, String officialTitle, String csInterest, String email) {
+    this.name = name;
+    this.location = officeLocation;
+    this.hours = officeHours;
+    this.course1 = course1;
+    this.course2 = course2;
+    this.title = officialTitle;
+    this.interest = csInterest;
+    this.email = email;
+  }
+  
+  public String getName () {
+    return name;
+  }
+  
+  public void setName (String name) {
+    this.name = name;
+  }
+  
+  public String getLocation () {
+    return location;
+  }
+  
+  public void setLocation (String location) {
+    this.location = location;
+  }
+  
+  public String getHours () {
+    return hours;
+  }
+  
+  public void setHours (String hours) {
+    this.hours = hours;
+  }
+  
+  public String getCourse1 () {
+    return course1;
+  }
+  
+  public void setCourse1 (String course1) {
+    this.course1 = course1;
+  }
+  
+  public String getCourse2 () {
+    return course2;
+  }
+  
+  public void setCourse2 (String course2) {
+    this.course2 = course2;
+  }
+  
+  public String getTitle () {
+    return title;
+  }
+  
+  public void setTitle (String title) {
+    this.title = title;
+  }
+  
+  public String getInterest () {
+    return interest;
+  }
+  
+  public void setInterest (String interest) {
+    this.interest = interest;
+  }
+  
+  public String getEmail () {
+    return email;
+  }
+  
+  public void setEmail (String email) {
+    this.email = email;
+  }
+  
+  public boolean equals(Object x){
+    Professor professor = (Professor)x;
+    return this.getLocation().equals(professor.getLocation());
+  }
+  
+  public int compareTo(Professor other) {
+    return location.compareTo(other.location);
+  }
+  
+  public boolean searchWordInProf(String searchWord) {
+    boolean result = false;
+    Scanner s = new Scanner(this.toString().toLowerCase());
+    s.useDelimiter("[^\\w]+");
+   while (s.hasNext()) {
+     if (s.next().equals(searchWord.toLowerCase())) {
+       return true;
+     }
+   }
+   return result;
+  }
+  
+  public String toString () {
+    String s = "Professor name: " + name + "\n";
+    s += "Office location: " + location + "\n";
+    s += "Office hours: " + hours + "\n";
+    s += "Courses taught: " + course1 + ", " + course2 + "\n";
+    s += "Official title: " + title + "\n";
+    s += "CS interests: " + interest + "\n";
+    s += "E-mail address: " + email + "\n";
+    return s;
+  }
+  
+  public static void main (String[] args) {
+    Professor benWood = new Professor ("Ben Wood", "E128", "Monday 4:00-6:00pm, Tuesday 9:00-10:00am " + 
+                                       "3:00-4:00pm, \n Thursday 4:00-5:30pm, Friday 11:30-12:30pm", "CS 230",
+                                       "CS 240", "Assistant Professor of Computer Science", "programming languages, " +
+                                       "compilers and run-time systems, computer architecture", "bwood5@wellesley.edu");
+    Professor stellaK = new Professor ("Stella Kakavouli", "E131", "Wednesday 1:30-3pm, Thursday 9:30-11:30am",
+                                       "CS 230", "CS117", "Instructor in Computer Science Laboratory", "not given", "skakavou@wellesley.edu");
+    System.out.println(benWood);
+    System.out.println(stellaK);
+    System.out.println(benWood.compareTo(stellaK));
+    System.out.println(stellaK.compareTo(benWood));
+    System.out.println(stellaK.compareTo(stellaK));
+  }
+  
+}

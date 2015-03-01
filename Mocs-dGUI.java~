@@ -1,0 +1,30 @@
+/* File Name: Mocs-dGUI.java
+ * Purpose: A class that creates a Course object
+ * Author: Hye Sun Yun 
+ * Date: November 25, 2014
+ * Project
+ */
+
+import javax.swing.*; 
+
+public class Mocs-dGUI {
+  
+ public static void main (String[] args) {
+   // creates and shows a Frame 
+    JFrame frame = new JFrame("MOCS-D (Map Of Computer Science Department)");
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+ 
+   // GradSchools collection = new GradSchools(); Create a CSdepartment object?? or collection of courses or professors
+    // creates tabbed pane which includes several panes
+    JTabbedPane tp = new JTabbedPane();
+    tp.addTab ("About", new AboutPanel());
+    tp.addTab ("Add School", new AddSchoolPanel(collection));
+    tp.addTab ("Evaluate", new EvaluatePanel(collection));
+    
+    frame.getContentPane().add(tp);
+    
+    frame.pack();
+    frame.setVisible(true);
+ }
+ 
+}

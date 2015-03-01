@@ -1,0 +1,117 @@
+Scott Anderson
+E114
+Mondays 2pm-4pm, Wednesdays 9pm-11pm, Fridays 2pm-5pm
+CS 110
+CS 307
+Lecturer in Computer Science
+artificial intelligence (particularly planning and natural language processing), computer graphics programming, simulation, system software and system administration
+sanderso@wellesley.edu
+#
+Susan Buck
+S160
+Mondays 2pm-3:30pm, Thursdays 2pm-3:30pm
+CS 110
+---
+Instructor in Computer Science Laboratory
+web development, exploring ways to empower women and minority individuals to excel in programming related fields
+sbuck@wellesley.edu
+#
+Jean Herbst
+E129
+Mondays 8:30pm-9:30pm, Tuesdays 3pm-4pm, Wednesdays 6:15pm-7:15pm, Thursdays 3pm-4pm
+CS 111
+CS 240
+Instructor in Computer Science Laboratory
+computer hardware: the nuts and bolts (or, gates and chips) that make a computer work
+jherbst@wellesley.edu
+#
+Stella Kakavouli
+E131
+Wednesday 1:30-3pm, Thursday 9:30-11:30am
+CS 117
+CS 230
+Instructor in Computer Science Laboratory
+not given
+skakavou@wellesley.edu
+#
+Sohie Lee
+E127
+Mondays 11am-12:20pm, Thursdays 1:30pm-3:30pm
+CS 110
+CS 111
+Senior Instructor in Computer Science Laboratory
+the intersection of cognitive science and computer science as well as the development of introductory computer science curriculum
+slee@wellesley.edu
+#
+P. Takis Metaxas
+E116
+Mondays 1:30pm-3pm, Wednesdays 2pm-3pm, Fridays 8:30am-10am
+CS 215
+CS 231
+Professor of Computer Science
+research on Web Science, Web Spam and Information Retrieval, Medical s/w, Parallel Computing, Multimedia, and CS Education
+pmetaxas@wellesley.edu
+#
+Darakhshan Mir
+E104
+Mondays 9:40am-12:30pm, Tuesdays 9:40am-12:30pm
+CS 114
+---
+Norma Wilentz Hess Fellow in Computer Science
+data privacy: specifically, examining the meaning and deployment of formal notions of privacy to sensitive data analyses
+dmir@wellesley.edu
+#
+Eni Mustafaraj
+E112
+Wednesdays 2pm-4pm, Thursdays 6:30pm-8:30pm
+CS 110
+---
+Assistant Professor of Computer Science
+applying principles of artificial intelligence in social computing, studying how societal problems transfer onto  computational platforms
+emustafa@wellesley.edu
+#
+Rhys Price Jones
+E120
+Tuesdays 3pm-5pm, Wednesdays 3pm-5pm
+CS 111
+CS 235
+Visiting Lecturer in Computer Science
+computer science education, genetic algorithms, game theory, graph theory, programming languages, artificial intelligence, and real intelligence
+rpricejo@wellesley.edu
+#
+Orit Shaer
+E108
+Tuesdays 10am-12:30pm, Wednesdays 2:15pm-4pm, Thursdays 2:30pm-4pm
+CS 230
+CS 320
+Clare Booth Luce Assistant Professor of Computer Science
+exploring new human-computer interaction techniques that provide seamless interfaces between people, computers, and the physical world
+oshaer@wellesley.edu
+#
+Brian Tjaden
+E106
+Mondays 2:30pm-4:30pm, Wednesdays 9:30am-11am
+CS 111
+---
+Theresa Mall Mullarkey Associate Professor of Computer Science
+computational biology, computer science, genomics, and bioinformatics
+btjaden@wellesley.edu
+#
+Franklyn A. Turbak ("Lyn")
+E126
+Mondays 2:45pm-5pm (SCI 257), Tuesdays 12:30pm-2pm, Wednesdays 3:30pm-5pm (SCI 160A)
+CS 117
+CS 342
+Associate Professor of Computer Science
+the design, analysis, and implementation of expressive programming languages, graphical representations of programs, and the visualization of computational processes
+fturbak@wellesley.edu
+#
+Ben Wood
+E128
+Monday 4:00-6:00pm, Tuesday 9:00-10:00am 3:00-4:00pm, Thursday 4:00-5:30pm, Friday 11:30-12:30pm
+CS 230
+CS 240
+Assistant Professor of Computer Science
+programming languages, compilers and run-time systems, computer architecture
+bwood5@wellesley.edu
+#

@@ -1,0 +1,312 @@
+CS 110-01
+Computer Science and the Internet
+This course explains the basics of how the Internet works and how to build a website. Topics include client-server architecture; structuring Web pages with HTML, CSS, and JavaScript; the representation of colors, images, and sound on the computer; encryption; cookies; and CGI forms. We also discuss accessibility, copyright, intellectual property, and critical thinking in the context of the Internet.
+None
+MTh 09:50 am - 11:00 am
+Scott Anderson
+Science Center 257
+#
+CS 110-02 
+Computer Science and the Internet
+This course explains the basics of how the Internet works and how to build a website. Topics include client-server architecture; structuring Web pages with HTML, CSS, and JavaScript; the representation of colors, images, and sound on the computer; encryption; cookies; and CGI forms. We also discuss accessibility, copyright, intellectual property, and critical thinking in the context of the Internet.
+None
+MTh 11:10 am - 12:20 am
+Eniana Mustafaraj
+Science Center 257
+#
+CS 110-D01 
+Discussion: Computer Science and the Internet
+Required 70-minute discussion section for CS 110 Computer Science and Internet course.
+None
+T 08:30 am - 09:40 am
+Sohie Lee
+Science Center E101
+#
+CS 110-D02 
+Discussion: Computer Science and the Internet
+Required 70-minute discussion section for CS 110 Computer Science and Internet course.
+None
+T 09:50 am - 11:00 am
+Susan Buck
+Science Center E101
+#
+CS 110-D03 
+Discussion: Computer Science and the Internet
+Required 70-minute discussion section for CS 110 Computer Science and Internet course.
+None
+T 11:10 am - 12:20 pm
+Susan Buck
+Science Center E101
+#
+CS 110-D04 
+Discussion: Computer Science and the Internet
+Required 70-minute discussion section for CS 110 Computer Science and Internet course.
+None
+T 01:30 pm - 02:40 pm
+Susan Buck
+Science Center E101
+#
+CS 111-01
+Computer Programming and Problem Solving
+An introduction to problem solving through computer programming. Students learn how to read, modify, design, debug, and test algorithms that solve problems using Python. Programming concepts include control structures, data structures, abstraction, recursion, modularity, and object-oriented design.
+None
+TF 09:50 am - 11:00 am 
+Brian Tjaden
+Science Center 257
+#
+CS 111-02
+Computer Programming and Problem Solving
+An introduction to problem solving through computer programming. Students learn how to read, modify, design, debug, and test algorithms that solve problems using Python. Programming concepts include control structures, data structures, abstraction, recursion, modularity, and object-oriented design.
+None
+TF 11:10 am - 12:20 pm
+Brian Tjaden 
+Science Center 257
+#
+CS 111-03
+Computer Programming and Problem Solving
+An introduction to problem solving through computer programming. Students learn how to read, modify, design, debug, and test algorithms that solve problems using Python. Programming concepts include control structures, data structures, abstraction, recursion, modularity, and object-oriented design.
+None
+TF 1:30 pm - 02:40 pm
+Rhys Price Jones
+Science Center 257
+#
+CS 111-L01
+Lab: Computer Programming and Problem Solving
+Required two-hour laboratory section for CS 111 course.
+None
+W 08:30 am - 10:20 am 
+Sohie Lee
+Science Center E101
+#
+CS 111-L02
+Lab: Computer Programming and Problem Solving
+Required two-hour laboratory section for CS 111 course.
+None
+W 10:30 am - 12:20 pm 
+Sohie Lee
+Science Center E101
+#
+CS 111-L03
+Lab: Computer Programming and Problem Solving
+Required two-hour laboratory section for CS 111 course.
+None
+W 02:15 pm - 04:05 pm 
+Sohie Lee
+Science Center E101
+#
+CS 111-L04
+Lab: Computer Programming and Problem Solving
+Required two-hour laboratory section for CS 111 course.
+None
+W 02:15 pm - 04:05 pm
+Jean Herbst
+Science Center 257
+#
+CS 111-L05
+Lab: Computer Programming and Problem Solving
+Required two-hour laboratory section for CS 111 course.
+None
+W 04:15 pm - 06:05 pm
+Jean Herbst
+Science Center 257
+#
+CS 111-L06
+Lab: Computer Programming and Problem Solving
+Required two-hour laboratory section for CS 111 course.
+None
+Th 10:30 am - 12:20 pm
+Sohie Lee
+Science Center S160A
+#
+CS 114-01
+Socio-Technological Web w/Disc
+This course will start by studying the structure of the traditional Web and its recent successor, the Social Web, and will focus on issues of virtual identity, personal and group privacy, trust evaluation and propagation, online security, critical thinking, online propaganda, googlearchy, fraud and manipulation, restricted resources, class differences, self-perception, and decision-making.
+None
+TF 08:30 am - 09:40 am
+Darakhshan Mir
+Science Center 257
+#
+CS 114-D01
+Discussion: Socio-Technological Web
+Required additional 70-minute discussion section for CS 114 course.
+None
+M 08:30 am - 9:40 am
+Darakhshan Mir
+Science Center 257
+#
+CS 117-01
+Inventing Mobile Apps w/Disc.
+This course teaches how to create apps for mobile devices as a vehicle for learning big ideas of computer science, engineering, and entrepreneurship, and explore technology's impact on society. Applications include games, quizzes, electronic voting, location-aware apps, social networking, and apps that communicate with Web services.
+None
+MTh 01:30 pm - 2:40 pm
+Franklyn Turbak
+Science Center 257
+#
+CS 117-D01
+Discussion: Inventing Mobile Apps
+Required additional 70-minute discussion section for CS 117 course.
+None
+W 9:50 am - 11:00 am
+Stella Kakavouli
+Science Center 257
+#
+CS 117-D02
+Discussion: Inventing Mobile Apps
+Required additional 70-minute discussion section for CS 117 course.
+None
+W 11:10 am - 12:20 pm
+Stella Kakavouli
+Science Center 257
+#
+CS 215-01
+Multimedia Design & Programming
+The purpose of this course is to give students a broad foundation in issues related to creating multimedia and hypermedia applications. Topics to be covered include history and philosophy of hypermedia; principles of human-computer interaction; multimedia programming; optimizing for CD-ROMs and the World Wide Web; digital representation and editing of media (audio, graphics, video); media compression and transmission; and delivery of multimedia applications.
+CS 11 or CS 118 [2012-13], with a grade of at least C+, is required, or permission of the instructor. At least on of ARTS 105, ARTS 108/CAMS 138, or ARTS 109/CAMS 139 [2010-11] is recommended.
+TWF 11:10 am - 12:20 pm
+Panagiotis Metaxas
+Jewett Art Center 247
+#
+CS 230-01
+Data Structures w/Lab
+An introduction to techniques and building blocks for organizing large programs. Topics include: modules, abstract data types, recursion, algorithmic efficiency, and the use and implementation of standard data structures and algorithms, such as lists, trees, graphs, stacks, queues, priority queues, tables, sorting, and searching. Java programming language.
+CS 111 or CS 118 [2012-13] or permission of the instructor. Students who received a grade of C+ or lower in CS 111 or CS 118 [2012-13] must contact the instructor before enrolling.
+MTh 09:50 am - 11:00 am 
+Orit Shaer
+Science Center 264
+#
+CS 230-02
+Data Structures w/Lab
+An introduction to techniques and building blocks for organizing large programs. Topics include: modules, abstract data types, recursion, algorithmic efficiency, and the use and implementation of standard data structures and algorithms, such as lists, trees, graphs, stacks, queues, priority queues, tables, sorting, and searching. Java programming language.
+CS 111 or CS 118 [2012-13] or permission of the instructor. Students who received a grade of C+ or lower in CS 111 or CS 118 [2012-13] must contact the instructor before enrolling.
+MTh 11:10 am - 12:20 pm 
+Benjamin Wood
+Science Center E111
+#
+CS 230-L01
+Lab: Data Structures
+Required additional two-hour laboratory section for CS 230 course.
+CS 111 or CS 118 [2012-13] or permission of the instructor. Students who received a grade of C+ or lower in CS 111 or CS 118 [2012-13] must contact the instructor before enrolling.
+Th 1:30 pm - 3:20 pm
+Stella Kakavouli
+Science Center E101
+#
+CS 230-L02
+Lab: Data Structures
+Required additional two-hour laboratory section for CS 230 course.
+CS 111 or CS 118 [2012-13] or permission of the instructor. Students who received a grade of C+ or lower in CS 111 or CS 118 [2012-13] must contact the instructor before enrolling.
+F 08:30 am - 10:20 am
+Stella Kakavouli
+Science Center E101
+#
+CS 230-L03
+Lab: Data Structures
+Required additional two-hour laboratory section for CS 230 course.
+CS 111 or CS 118 [2012-13] or permission of the instructor. Students who received a grade of C+ or lower in CS 111 or CS 118 [2012-13] must contact the instructor before enrolling.
+F 10:30 am - 12:20 pm
+Stella Kakavouli
+Science Center E101
+#
+CS 230-L04
+Lab: Data Structures
+Required additional two-hour laboratory section for CS 230 course.
+CS 111 or CS 118 [2012-13] or permission of the instructor. Students who received a grade of C+ or lower in CS 111 or CS 118 [2012-13] must contact the instructor before enrolling.
+F 01:30 pm - 03:20 pm
+Stella Kakavouli
+Science Center E101
+#
+CS 231-01
+Fundamental Algorithms
+An introduction to the design and analysis of fundamental algorithms. General techniques covered: divide-and-conquer algorithms, dynamic programming, greediness, probabilistic algorithms. Topics include: sorting, searching, graph algorithms, compression, cryptography, computational geometry, and NP-completeness.
+CS 230 and either MATH 225 or permission of the instructor
+TF 02:50 pm - 04:00 pm
+Panagiotis Metaxas
+Science Center E111
+#
+CS 235-01
+Languages and Automata
+This course offers an introduction to the concepts of languages and automata. Topics include languages, regular expressions, finite automata, grammars, pushdown automata, and Turing machines. The first half of the semester covers the Chomsky hierarchy of languages and their associated computational models. The second half of the semester focuses on decidability issues, and unsolvable problems and the course closes with a brief introduction to complexity theory.
+CS 230 and either MATH 225 or permission of the instructor.
+TF - 08:30 am - 09:40 am and W - 08:30 am - 09:40 am
+Rhys Price Jones
+Science Center E111 and Science Center 257
+#
+CS 240-01
+Introduction to Machine Organization with Laboratory
+This course is intended to demystify the computer (open up the "black box") and teach how information at the highest level is processed and ultimately executed by the underlying circuitry. To this end, the course provides an introduction to machine organization and assembly language programming.
+CS 111, CS 112, or CS 118 [2012-13]
+TF - 01:30 pm - 02:40 pm
+Benjamin Wood
+Science Center E111
+#
+CS 240-L01
+Lab: Introduction to Machine Organization
+Required additional three-hour laboratory section for CS 240 course.
+CS 111, CS 112, or CS 118 [2012-13]
+M 01:30 pm - 04:30 pm
+Jean Herbst
+Science Center 173
+#
+CS 240-L02
+Lab: Introduction to Machine Organization
+Required additional three-hour laboratory section for CS 240 course.
+CS 111, CS 112, or CS 118 [2012-13]
+M 05:30 pm - 08:30 pm
+Jean Herbst
+Science Center 173
+#
+CS 307-01
+Computer Graphics
+A survey of topics in computer graphics with an emphasis on fundamental techniques. Topics include: graphics hardware, fundamentals of three-dimensional graphics including modeling, projection, coordinate transformation, synthetic camera specification, color, lighting, shading, hidden surface removal, animation, and texture-mapping.
+CS 230 or permission of the instructor
+MTh 11:10 am - 12:20 pm
+Scott Anderson
+Science Center E101
+#
+CS 320-01
+Tangible User Interfaces
+Extending beyond the limitations of the computer mouse, keyboard, and monitor, tangible user interfaces allow users to take advantage of their natural spatial skills while supporting collaborative work. Students will be introduced to conceptual frameworks, the latest research, and a variety of techniques for designing and building these interfaces.
+CS 215, CS 220, or CS 230, or permission of the instructor. Not open to students who have taken this course as a topic of CS 349.
+MTh 01:30 pm - 2:40 pm 
+Orit Shaer
+Science Center E125
+#
+CS 322-01
+Seminar: Digital Technologies and Learning Communities
+This seminar is an intensive examination of the intersection of digital technologies and learning, and of implications for learning communities and the learning enterprise. Digital technologies have become part of our social fabric. The capacity to critically assess and use these technologies to support learner success is more important than ever. This course is designed to support the development of thoughtful and responsive educators' ability to address the unique challenges inherent in the technology-rich options of today's learning environments.
+EDUC 110, EDUC 215, or EDUC 216
+T 09:50 am - 12:20 pm
+Robbin Chapman
+Pendleton Hall East 430
+#
+CS 342-01
+Computer Security w/Disc
+An introduction to computer security. Topics include ethics, privacy, authentication, access control, information flow, operating system security (with a focus on Linux), cryptography, security protocols, intrusion prevention and detection, firewalls, viruses, network security, Web security, and programming language security. Assignments include hands-on exercises with security exploits and tools in a Linux environment.
+CS 230 and CS 240 or permission of the instructor. CS 242 recommended.
+MTh 09:50 am - 11:00 am
+Franklyn Turbak
+Science Center 392
+#
+CS 342-D01
+Discussion: Computer Security
+Required additional 70-minute discussion section for CS 342.
+CS 230 and CS 240 or permission of the instructor. CS 242 recommended.
+T 09:50 am - 11:00 am
+Franklyn Turbak
+Science Center S160A
+#
+CS 342-D02
+Discussion: Computer Security
+Required additional 70-minute discussion section for CS 342.
+CS 230 and CS 240 or permission of the instructor. CS 242 recommended.
+T 11:10 am - 12:20 pm
+Franklyn Turbak
+Science Center S160A
+#
+CS 342-D03
+Discussion: Computer Security
+Required additional 70-minute discussion section for CS 342.
+CS 230 and CS 240 or permission of the instructor. CS 242 recommended.
+W 02:15 pm - 03:25 pm
+Franklyn Turbak
+Science Center S160A
+#
